@@ -155,7 +155,7 @@ y = float(input("Length of Second Side of Trisngle = "))
 z = float(input("Length of Third Side of Triangle = "))
 
 
-if x >= y+z or y >= x+z or z >= x+y :
+if x > y+z or y > x+z or z > x+y :
      print("\nNo, Triangle can't be formed.")
 else:
      print("\nYes, Triangle can be formed.")
