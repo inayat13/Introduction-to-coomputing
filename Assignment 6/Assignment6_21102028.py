@@ -129,21 +129,13 @@ print("-".join(words))
 print("\n\n\n\n\nQ6\n\n")
 
 
-def student_data(student_id, **kwargs):
-    print(f"Student ID: {student_id}")
-    if "student_name" in kwargs:
-        print("Student Name:", kwargs["student_name"])
-    if "student_year" in kwargs:
-        print("Student Year:", kwargs["student_year"])
+def student_data(student_name , student_branch, student_id):
+    print("student name: ",student_name)
+    print("student branch: ",student_branch)
+    print("student id: ",student_id)
 
-
-student_data(student_id="21102028")
-student_data(student_id="21102028", student_name="Inayat Kaur Shah")
-student_data(student_id="21102028", student_name="Inayat Kaur Shah", student_year="1st Year")
-
-
-
-
+student_data("Inayat","Civil",21102028)
+print()
 
 
 # Q7
