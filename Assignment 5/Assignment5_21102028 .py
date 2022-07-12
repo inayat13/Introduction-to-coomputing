@@ -116,7 +116,7 @@ print("\n\n\n\n\nQ8\n")
 ist=[]
 for i in range(0,10,1):
     n=int(input(f"Enter {i+1} number: "))
-    list.append👎
+    list.append(n)
 print(list)
 
 #a)
