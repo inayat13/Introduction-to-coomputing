@@ -113,11 +113,45 @@ for i in range (1,500):
 print("\n\n\n\n\nQ8\n")
 
 
-a_list=[]
+ist=[]
+for i in range(0,10,1):
+    n=int(input(f"Enter {i+1} number: "))
+    list.append👎
+print(list)
+
+#a)
+print("Positive numbers are: ")
 for i in range(10):
-    list_num=int(input("enter number: "))
-    a_list.append(list_num)
-print(a_list)
+    if list[i]>0:
+        print(list[i])
+
+#b)
+print("Negative numbers are: ")
+for i in range(10):
+    if list[i]<0:
+        print(list[i])
+
+#c)
+print("Odd numbers are: ")
+for i in range(10):
+    if list[i]%2!=0:
+        print(list[i])
+
+#d)
+print("Even numbers are: ")
+for i in range(10):
+    if list[i]%2==0:
+        print(list[i])
+
+#e)
+count=dict()
+for no in list:
+    if no in count:
+        count[no]+=1
+    else:
+        count[no]=1
+
+print("No of times each number occurs in the List: ",count,"\n" )
 
 
 
